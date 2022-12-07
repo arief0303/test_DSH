@@ -631,6 +631,7 @@ class ThirdPersonCameraDemo {
         c.castShadow = true;
       });
       gltf.scene.scale.set(8, 8, 8);
+      gltf.scene.rotation.set(0, -1, 0);
 
       this._scene.add(gltf.scene);
     })
